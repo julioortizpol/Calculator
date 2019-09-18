@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "20%"
     },
     "_left_": {
         "type": "string",
@@ -22,28 +22,28 @@
         0,
         0
     ],
-    "_skin_": "s45b59dbccd64436b77bb755abaf2fdd",
-    "_text_": "0",
+    "_skin_": "sefbfbbecc964fa58c11963729da6b09",
+    "_text_": "-",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "33.33%"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sbbc1ca33bf04c5d9dc513f7774044e1",
-    "id": "CopyButton0c86fd4df2ab74a",
+    "id": "Subtract",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c0003eb23c3e493fa09b0c9f1fa33e2b",
+    "kuid": "ff00e79553454c878528bb21f02a5588",
     "name": "kony.ui.Button",
-    "parent": "CopyFlexContainer0h90f29ca42284c",
+    "parent": "flxdefaultactions",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

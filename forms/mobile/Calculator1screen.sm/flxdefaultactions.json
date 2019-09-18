@@ -25,27 +25,27 @@
     "_percent_": true,
     "_right_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10.00%"
     },
-    "_skin_": "s95aef0416034e98a19f1784da0e57b3",
+    "_skin_": "sefe3261104044288e76c3a47d4261bc",
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "20%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Button0d5f587b45f704b",
-        "CopyButton0g01ddb0602e84b",
-        "CopyButton0a42a1fb922ae47",
-        "CopyButton0d3955e1bccd342",
-        "CopyButton0ae26798102064e"
+        "Backspaceiconflx",
+        "Divide",
+        "multiply",
+        "Subtract",
+        "Sum"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0jb7198e6840b45",
+    "id": "flxdefaultactions",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

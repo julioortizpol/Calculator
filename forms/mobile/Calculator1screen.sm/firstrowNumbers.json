@@ -1,29 +1,29 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "20%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
         "value": "0dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "sefbfbbecc964fa58c11963729da6b09",
-    "_text_": "/",
+    "_percent_": true,
+    "_skin_": "sbf830be19d34a95a23ab7af700edff8",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,21 +32,32 @@
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "Number1",
+        "Number2",
+        "Number3"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "sbbc1ca33bf04c5d9dc513f7774044e1",
-    "id": "CopyButton0g01ddb0602e84b",
+    "enablescrolling": true,
+    "id": "firstrowNumbers",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f1389924cf7842b6ad5e1b8fc728d420",
-    "name": "kony.ui.Button",
-    "parent": "FlexContainer0jb7198e6840b45",
+    "kuid": "c94abcf9599c42719f489cb058b0f41e",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxNumbersaction",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

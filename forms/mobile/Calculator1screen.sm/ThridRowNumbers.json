@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +23,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sba26c204fb946ed80ecba3292a554ec",
+    "_skin_": "s95aef0416034e98a19f1784da0e57b3",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -36,23 +36,21 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxNumbersaction",
-        "flxdefaultactions",
-        "DisplayTable",
-        "HamburgerCalcoption",
-        "CopyDisplayTable0b706573028de49"
+        "Number7",
+        "Number8",
+        "Number9"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0f5200f75c9e04f",
+    "id": "ThridRowNumbers",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bb4cf81233cc40538b907fa4b60bf8d4",
-    "layouttype": 2,
+    "kuid": "eaee32f8044549898094ef2c28de7ee0",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "Calculator1screen",
+    "parent": "flxNumbersaction",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

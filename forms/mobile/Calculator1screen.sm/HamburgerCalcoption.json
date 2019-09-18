@@ -1,13 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "number",
+        "value": "0"
+    },
     "_height_": {
         "type": "string",
-        "value": "25%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "70%"
     },
     "_margin_": [
         0,
@@ -23,40 +23,36 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sbf830be19d34a95a23ab7af700edff8",
-    "_top_": {
+    "_right_": {
         "type": "string",
         "value": "0dp"
     },
+    "_skin_": "s632be7825da4b43b51b53f2b4bfa696",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "10%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "Button0b4f69a356afd4f",
-        "CopyButton0gef6b1bd55bc45",
-        "CopyButton0f02150a3b38c4d"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0e88d06a00a8a4d",
+    "id": "HamburgerCalcoption",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c94abcf9599c42719f489cb058b0f41e",
-    "layouttype": 3,
+    "kuid": "fd57e87603bb4322a3fbe695fd9d7b57",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0ad915324da394f",
+    "parent": "FlexContainer0f5200f75c9e04f",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
-    "snaptogrid": true,
+    "snaptogrid": false,
     "wType": "FlexContainer",
     "widgetalignment": 1,
     "zindex": 1

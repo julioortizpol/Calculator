@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "20%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -22,28 +22,30 @@
         0,
         0
     ],
-    "_skin_": "sefbfbbecc964fa58c11963729da6b09",
-    "_text_": "Button",
+    "_skin_": "s45b59dbccd64436b77bb755abaf2fdd",
+    "_text_": "9",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "33.33%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "sbbc1ca33bf04c5d9dc513f7774044e1"
+    },
     "displaytext": true,
-    "focusskin": "sbbc1ca33bf04c5d9dc513f7774044e1",
-    "id": "Button0d5f587b45f704b",
+    "id": "Number9",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c8c80c3890fe4dfbac0078b221945dcc",
+    "kuid": "e2436ef572d141739588e653b5d156dc",
     "name": "kony.ui.Button",
-    "parent": "FlexContainer0jb7198e6840b45",
+    "parent": "ThridRowNumbers",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

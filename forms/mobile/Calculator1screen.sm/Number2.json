@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s45b59dbccd64436b77bb755abaf2fdd",
-    "_text_": ".",
+    "_text_": "2",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -35,15 +35,17 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s1eee2314c804c5e8ced9c7da04eb138"
+    },
     "displaytext": true,
-    "focusskin": "sbbc1ca33bf04c5d9dc513f7774044e1",
-    "id": "CopyButton0aec111e582114e",
+    "id": "Number2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d03d16ed682b4c3f8ed2a10afb25298e",
+    "kuid": "b375c86322ea4a8e969406e39f9dec23",
     "name": "kony.ui.Button",
-    "parent": "CopyFlexContainer0h90f29ca42284c",
+    "parent": "firstrowNumbers",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -1,17 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_height_": {
         "type": "string",
-        "value": "70%"
+        "value": "20%"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -27,31 +23,32 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8117af4883e4c2ba739f87471b61d56",
+    "_skin_": "sc8209a2216f45788deb4fcc2cc290c1",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "75%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0e88d06a00a8a4d",
-        "CopyFlexContainer0ae849178cd9a4d",
-        "CopyFlexContainer0f5b3cb9dcf0e48",
-        "CopyFlexContainer0h90f29ca42284c"
+        "Image0f45ec419fc1347"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0ad915324da394f",
+    "id": "Backspaceiconflx",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f879875b662e46e0982f0ac46136d3d0",
-    "layouttype": 4,
+    "kuid": "a91b71a4f7a44f998a59a273e8f05ee4",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0f5200f75c9e04f",
+    "parent": "flxdefaultactions",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
