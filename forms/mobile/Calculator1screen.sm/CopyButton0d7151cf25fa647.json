@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s45b59dbccd64436b77bb755abaf2fdd",
+    "_text_": "8",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33.33%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sbbc1ca33bf04c5d9dc513f7774044e1",
+    "id": "CopyButton0d7151cf25fa647",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a987815aeaf9498cb2d7bc78e7ca5092",
+    "name": "kony.ui.Button",
+    "parent": "CopyFlexContainer0f5b3cb9dcf0e48",
+    "pf": "Calculator1screen",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
