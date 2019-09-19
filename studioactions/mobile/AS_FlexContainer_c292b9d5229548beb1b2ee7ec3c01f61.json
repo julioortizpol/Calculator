@@ -1,0 +1,48 @@
+{
+    "AS_FlexContainer_c292b9d5229548beb1b2ee7ec3c01f61": {
+        "id": "AS_FlexContainer_c292b9d5229548beb1b2ee7ec3c01f61",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Calculator1screen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0603757e27a4ae0837aadc2a35272bc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "Calculator1screen",
+            "widgetId": "HamburgerCalcoption",
+            "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
+            "widgetKUID": "fd57e87603bb4322a3fbe695fd9d7b57",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "70%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "2",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250",
+                "direction": "kony.anim.DIRECTION_ALTERNATE"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
+            "displayAnimationId": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.HamburgerCalcoption"
+        }]
+    }
+}

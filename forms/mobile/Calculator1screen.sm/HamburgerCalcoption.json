@@ -2,12 +2,16 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_bottom_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_height_": {
         "type": "string",
-        "value": "70%"
+        "value": "70.04%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "90%"
     },
     "_margin_": [
         0,
@@ -23,23 +27,22 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_skin_": "s632be7825da4b43b51b53f2b4bfa696",
     "_width_": {
         "type": "string",
-        "value": "10%"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "imgdesplegate"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "HamburgerCalcoption",
+    "ide_onClick": "AS_FlexContainer_c292b9d5229548beb1b2ee7ec3c01f61",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

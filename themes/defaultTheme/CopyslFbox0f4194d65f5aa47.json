@@ -126,6 +126,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,
@@ -326,6 +327,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,
@@ -373,6 +375,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,
@@ -420,6 +423,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,
@@ -467,6 +471,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,
@@ -514,6 +519,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,
@@ -561,6 +567,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,
@@ -608,6 +615,7 @@
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": "0",
     "font_name": "Helvetica",
+    "isCustomCSSEnabled": true,
     "isForked": true,
     "shadow": {
       "br": 100,

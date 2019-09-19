@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "29.50%"
+        "value": "30%"
     },
     "_left_": {
         "type": "string",
@@ -32,6 +32,7 @@
         "type": "string",
         "value": "100%"
     },
+    "activeNativeBorderCornerRadiusControl": "topRightControl",
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
