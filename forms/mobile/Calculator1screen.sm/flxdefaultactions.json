@@ -25,7 +25,7 @@
     "_percent_": true,
     "_right_": {
         "type": "string",
-        "value": "10.00%"
+        "value": "9.50%"
     },
     "_skin_": "sefe3261104044288e76c3a47d4261bc",
     "_width_": {
@@ -61,5 +61,5 @@
     "snaptogrid": false,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 2
 }

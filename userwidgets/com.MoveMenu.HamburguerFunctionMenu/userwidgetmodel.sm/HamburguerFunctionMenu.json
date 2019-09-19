@@ -1,17 +1,13 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_height_": {
         "type": "string",
-        "value": "70%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -27,38 +23,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8117af4883e4c2ba739f87471b61d56",
+    "_skin_": "s99a04f737fb4f6b8fad1dfb052f4125",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "70%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "firstrowNumbers",
-        "SecondRowNumbers",
-        "ThridRowNumbers",
-        "FourthRowNumbers"
+        "flximgcontainer",
+        "flxFuntionButton"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxNumbersaction",
+    "id": "HamburguerFunctionMenu",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f879875b662e46e0982f0ac46136d3d0",
-    "layouttype": 4,
+    "kuid": "i5e57dadfbfa43ca999e1ffea77ad555",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0f5200f75c9e04f",
-    "pf": "Calculator1screen",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
-    "snaptogrid": false,
+    "snaptogrid": true,
+    "vizProps": {
+        "hidewidgethierarchy": false
+    },
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 2
+    "widgetalignment": 1
 }

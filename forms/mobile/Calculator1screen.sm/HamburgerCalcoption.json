@@ -11,7 +11,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "90%"
+        "value": "90.50%"
     },
     "_margin_": [
         0,
@@ -30,19 +30,19 @@
     "_skin_": "s632be7825da4b43b51b53f2b4bfa696",
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "76.66%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgdesplegate"
+        "HamburguerFunctionMenu"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "HamburgerCalcoption",
-    "ide_onClick": "AS_FlexContainer_c292b9d5229548beb1b2ee7ec3c01f61",
+    "ide_onClick": "AS_FlexContainer_h24f32dc85bb4f459670dd6c7f83f6f5",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
@@ -58,5 +58,5 @@
     "snaptogrid": false,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 2
 }

@@ -4,12 +4,12 @@
     "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "150dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_margin_": [
         0,
@@ -26,14 +26,18 @@
     "_skin_": "s32b7b4408984045b8a77d89b813ad42",
     "_src_": "expandbuttono1.png",
     "_top_": {
-        "type": "string",
-        "value": "235dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "12.73%"
+        "value": "40%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -41,21 +45,20 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "Calculator1screen",
+        "formID": "uwud5d3dd9549a4c7a981671bdc55df331",
         "platform": "android",
-        "templateType": "forms",
+        "templateType": "userwidgets",
         "topLevelBox": null
     },
-    "id": "imgdesplegate",
+    "id": "Image0e5a3421ad0f342",
     "imagescalemode": 1,
     "info": null,
-    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d2bd965e4c204977887aa98ac143dcdd",
+    "kuid": "e0ac86e50b2545a5a0b2331ab424c2d5",
     "name": "kony.ui.Image2",
-    "parent": "HamburgerCalcoption",
-    "pf": "Calculator1screen",
+    "parent": "flximgcontainer",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

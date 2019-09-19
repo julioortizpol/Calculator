@@ -1,0 +1,265 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_android_": {},
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_iphone_": {},
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s99a04f737fb4f6b8fad1dfb052f4125",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "CopybtnfunctionDeg0ab89728fca6a48": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h68b3dc275264850b27f71d33292a637",
+                "srcKUID": "hc1482e3a2cc4ce7b3db51a4b9c704f0",
+                "wType": "Button"
+            }
+        },
+        "CopybtnfunctionDeg0e288c3204c2945": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i1ce77b49d2141e6af2e6d4be3432abe",
+                "srcKUID": "c2f016deb9934e1baf742575923c7dfe",
+                "wType": "Button"
+            }
+        },
+        "CopybtnfunctionDeg0ed32fcd2395047": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f1f5bf3c700e4d7d9c1cfa1dbf2b6be6",
+                "srcKUID": "aa00796d31b74a2d968b223f9d078fa4",
+                "wType": "Button"
+            }
+        },
+        "CopybtnfunctionDeg0faef0130cd8344": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "af34877db08744d994c0c07f8f405bb6",
+                "srcKUID": "fd2cab67eb134fbdb10c2116469aae87",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntioninv0d6496139396e46": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "icd390097d9d41f9adffd661e1ab2302",
+                "srcKUID": "b10cce981bfd43378018e95604f56bc4",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntioninv0d8904f2490e941": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b9bf0dfc5e06455887c4a740c34f451f",
+                "srcKUID": "i605442721aa43408b94aee33bc34c91",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntioninv0fb5b52db17c846": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8f67be6d3da452aa199436917c8b35b",
+                "srcKUID": "dd233e2e6a4d4fbc8eaeea41e6cbfed8",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntioninv0iaf37ee07bf841": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e0f5b753291b42f98f8c481550716f28",
+                "srcKUID": "c10d0e2a40234cfbbd1b9f0d1eced91e",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntionpercent0c52b18e033ee42": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e5ca7271d7bb4e93bbd829c3f018d229",
+                "srcKUID": "h55018c517dd4f58b5fbab4de747c035",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntionpercent0c6be5da69cfc4f": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "feb7039ec8c24606932556b0bc0e8872",
+                "srcKUID": "f5d866ffcbb64d49ad62c148b676cce3",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntionpercent0e8163e5262cc40": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "aef7bca6efc04e839893dae576b935ff",
+                "srcKUID": "hbcf35c82f4d48d9b500aaf20fc708cd",
+                "wType": "Button"
+            }
+        },
+        "Copybtnfuntionpercent0f83f4ad7a9b74e": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g8d47ae04e684192be153a9451eddcc5",
+                "srcKUID": "cb87274bb07c4ffcb7d0ad6976e1259b",
+                "wType": "Button"
+            }
+        },
+        "Copyflxrowfunction0a06715c57d034e": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b5a7389d910c4dd8bc551f2c9469f09e",
+                "srcKUID": "jf35f11530844e5caa358b8595d8f1cf",
+                "wType": "FlexContainer"
+            }
+        },
+        "Copyflxrowfunction0e8ed6a6adb0044": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a776770ebc3a4f07a4ddb573c08d4fdf",
+                "srcKUID": "bbe4d9404c714153b197f82390fe11bf",
+                "wType": "FlexContainer"
+            }
+        },
+        "Copyflxrowfunction0gaa819bacf664d": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cc35c1b10c03470ca9052c30498522d2",
+                "srcKUID": "f39030835ae84df4a0ce216770d5de26",
+                "wType": "FlexContainer"
+            }
+        },
+        "Copyflxrowfunction0i679e9d1ad1340": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dec2becb12ef45e3bf7001a0faf0f50d",
+                "srcKUID": "f438ae1ad8d84d87a444afd9dfa67188",
+                "wType": "FlexContainer"
+            }
+        },
+        "HamburguerFunctionMenu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ad3aeb8d3eeb4c0a927c3ef5d88d3564",
+                "srcKUID": "i5e57dadfbfa43ca999e1ffea77ad555",
+                "wType": "FlexContainer"
+            }
+        },
+        "Image0e5a3421ad0f342": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e19dda99bcfc40ffb80280d54f0e7aa3",
+                "srcKUID": "e0ac86e50b2545a5a0b2331ab424c2d5",
+                "wType": "Image"
+            }
+        },
+        "btnfunctionDeg": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2a77255d1fc4ccf9aa2270d5d7dd448",
+                "srcKUID": "c184223c4a454133a49ddfe70412c80a",
+                "wType": "Button"
+            }
+        },
+        "btnfuntioninv": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i09650d6ebf64580a706815e29162ca0",
+                "srcKUID": "c95ad89756e64fd7b53175d7e31f6b7c",
+                "wType": "Button"
+            }
+        },
+        "btnfuntionpercent": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad03c3238fb149959e6cd344dc37acdc",
+                "srcKUID": "i8cc98d8794340e38d2f4816997ebe79",
+                "wType": "Button"
+            }
+        },
+        "flxFuntionButton": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ad58e3dc8a28451badcf948de666042e",
+                "srcKUID": "c041e83d0ffe4bd69b92a9336b6ffbcc",
+                "wType": "FlexContainer"
+            }
+        },
+        "flximgcontainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d46568f79d2e4da388240ed86b6e3620",
+                "srcKUID": "ddea6556eddf4ad2bbbbf76d6fe02d1c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxrowfunction1": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a9dd75c9076443048fb6d3e60d9b1e2a",
+                "srcKUID": "j016a48c85894e87ab5b58f81647c0c8",
+                "wType": "FlexContainer"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "HamburguerFunctionMenu",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ad3aeb8d3eeb4c0a927c3ef5d88d3564",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "HamburgerCalcoption",
+    "pf": "Calculator1screen",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "i5e57dadfbfa43ca999e1ffea77ad555",
+    "wType": "UserWidgetInstance"
+}

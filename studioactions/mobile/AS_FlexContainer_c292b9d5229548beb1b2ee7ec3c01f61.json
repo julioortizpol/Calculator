@@ -14,6 +14,50 @@
         },
         "language": "js",
         "actions": [{
+            "id": "__d8dae90b37c943fd9031f027e089ac7c",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetpos",
+                "leftValue": "this.view.HamburgerCalcoption.left",
+                "operator": "===",
+                "rightValueType": "varvalue",
+                "rightValue": "x",
+                "leftItemKUID": "a0603757e27a4ae0837aadc2a35272bc",
+                "leftWidgetKUID": "fd57e87603bb4322a3fbe695fd9d7b57"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "__ce8456a84c7246f8ad86c9d0ebf42953",
+            "type": "ELSE_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetprop",
+                "leftValue": "",
+                "operator": "===",
+                "rightValueType": "widgetprop",
+                "rightValue": ""
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "criteria": "all"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____be81bcf935724fc4a4b43324d8a78b99",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Calculator1screen",
+            "widgetId": "Image0e5a3421ad0f342",
+            "propertyName": "src",
+            "propertyValue": "expandbutton2.png",
+            "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
+            "widgetKUID": "e19dda99bcfc40ffb80280d54f0e7aa3",
+            "isSkinProperty": false,
+            "wType": "Image",
+            "forkedPlatform": "all",
+            "parentId": "__ce8456a84c7246f8ad86c9d0ebf42953",
+            "callbackType": null,
+            "widgetPath": "this.view.HamburguerFunctionMenu.Image0e5a3421ad0f342"
+        }, {
             "id": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
             "type": "MOVE_ACTION",
             "itemType": "FORM",
@@ -23,7 +67,7 @@
             "widgetKUID": "fd57e87603bb4322a3fbe695fd9d7b57",
             "wType": "FlexContainer",
             "animationObject": {
-                "left": "70%",
+                "left": "23.33%",
                 "anchorPoint": {},
                 "stepConfig": {
                     "timingFunction": "kony.anim.EASE"
@@ -31,18 +75,128 @@
             },
             "config": {
                 "delay": "0",
-                "iterationCount": "2",
+                "iterationCount": 1,
                 "fillMode": "kony.anim.FILL_MODE_FORWARDS",
-                "duration": "250",
-                "direction": "kony.anim.DIRECTION_ALTERNATE"
+                "duration": "500"
             },
             "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____gd7951c7ac334dc3a94f034871fa31a1",
             "animationId": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
             "displayAnimationId": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
             "forkedPlatform": "all",
-            "parentId": null,
+            "parentId": "__ce8456a84c7246f8ad86c9d0ebf42953",
             "callbackType": null,
             "widgetPath": "this.view.HamburgerCalcoption"
+        }, {
+            "id": "MOVE_ACTION____gd7951c7ac334dc3a94f034871fa31a1",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "Calculator1screen",
+            "widgetId": "flxshadowpart",
+            "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
+            "widgetKUID": "f44b738bc22541eebcb99e4c1ebc79e7",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "0%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
+            "animationId": "MOVE_ACTION____gd7951c7ac334dc3a94f034871fa31a1",
+            "displayAnimationId": "MOVE_ACTION____gd7951c7ac334dc3a94f034871fa31a1",
+            "forkedPlatform": "all",
+            "parentId": "__ce8456a84c7246f8ad86c9d0ebf42953",
+            "callbackType": null,
+            "widgetPath": "this.view.flxshadowpart"
+        }, {
+            "id": "ADD_SNIPPET__c66c21949afc45edaa0cce0fd0d0745b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": null,
+            "parentId": "MOVE_ACTION____gd7951c7ac334dc3a94f034871fa31a1",
+            "callbackType": "Callback"
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___g772e7460e9d4371af1d49be67f26670",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "Calculator1screen",
+            "widgetId": "Image0e5a3421ad0f342",
+            "propertyName": "src",
+            "propertyValue": "expandbuttono1.png",
+            "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
+            "widgetKUID": "e19dda99bcfc40ffb80280d54f0e7aa3",
+            "isSkinProperty": false,
+            "wType": "Image",
+            "forkedPlatform": "all",
+            "parentId": "__d8dae90b37c943fd9031f027e089ac7c",
+            "callbackType": null,
+            "widgetPath": "this.view.HamburguerFunctionMenu.Image0e5a3421ad0f342"
+        }, {
+            "id": "____j6c08b4aee6249568e98116da109b8cb",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "Calculator1screen",
+            "widgetId": "HamburgerCalcoption",
+            "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
+            "widgetKUID": "fd57e87603bb4322a3fbe695fd9d7b57",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "90.5%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
+            "animationId": "____j6c08b4aee6249568e98116da109b8cb",
+            "displayAnimationId": "MOVE_ACTION____b68cb70bac3e413e972fad35303597c4",
+            "forkedPlatform": "all",
+            "parentId": "__d8dae90b37c943fd9031f027e089ac7c",
+            "widgetPath": "this.view.HamburgerCalcoption"
+        }, {
+            "id": "____db9ec34e7ef945fa83ca90fc55c314f8",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "Calculator1screen",
+            "widgetId": "flxshadowpart",
+            "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
+            "widgetKUID": "f44b738bc22541eebcb99e4c1ebc79e7",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "left": "-22.33%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____b68cb70bac3e413e972fad35303597c4",
+            "animationId": "____db9ec34e7ef945fa83ca90fc55c314f8",
+            "displayAnimationId": "MOVE_ACTION____dea1c2963c254a46aac7e5f35fa2462d",
+            "forkedPlatform": "all",
+            "parentId": "__d8dae90b37c943fd9031f027e089ac7c",
+            "widgetPath": "this.view.flxshadowpart"
         }]
     }
 }

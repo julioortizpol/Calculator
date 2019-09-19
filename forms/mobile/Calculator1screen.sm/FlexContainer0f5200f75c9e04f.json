@@ -39,7 +39,8 @@
         "flxNumbersaction",
         "flxdefaultactions",
         "DisplayTable",
-        "HamburgerCalcoption"
+        "HamburgerCalcoption",
+        "flxshadowpart"
     ],
     "clipbounds": true,
     "containerweight": 100,
