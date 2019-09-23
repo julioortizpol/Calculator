@@ -46,11 +46,10 @@
     "context": {
         "channel": "mobile",
         "formID": "uwud5d3dd9549a4c7a981671bdc55df331",
-        "platform": "android",
         "templateType": "userwidgets",
         "topLevelBox": null
     },
-    "id": "Image0e5a3421ad0f342",
+    "id": "MoveButton",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,

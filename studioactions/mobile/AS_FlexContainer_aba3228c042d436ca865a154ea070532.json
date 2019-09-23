@@ -47,7 +47,7 @@
             "type": "SET_WIDGET_PROPERTY",
             "itemType": "FORM",
             "itemId": "Calculator1screen",
-            "widgetId": "Image0e5a3421ad0f342",
+            "widgetId": "MoveButton",
             "propertyName": "src",
             "propertyValue": "expandbuttono1.png",
             "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
@@ -56,7 +56,7 @@
             "wType": "Image",
             "forkedPlatform": "all",
             "parentId": null,
-            "widgetPath": "this.view.HamburguerFunctionMenu.Image0e5a3421ad0f342"
+            "widgetPath": "this.view.HamburguerFunctionMenu.MoveButton"
         }, {
             "id": "____cbbcec9f4dd646558864f85f92b37868",
             "type": "MOVE_ACTION",
@@ -67,7 +67,7 @@
             "widgetKUID": "f44b738bc22541eebcb99e4c1ebc79e7",
             "wType": "FlexContainer",
             "animationObject": {
-                "left": "-22.33%",
+                "left": "-23.33%",
                 "anchorPoint": {},
                 "stepConfig": {
                     "timingFunction": "kony.anim.EASE"

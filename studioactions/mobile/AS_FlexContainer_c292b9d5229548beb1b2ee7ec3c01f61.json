@@ -46,7 +46,7 @@
             "type": "SET_WIDGET_PROPERTY",
             "itemType": "FORM",
             "itemId": "Calculator1screen",
-            "widgetId": "Image0e5a3421ad0f342",
+            "widgetId": "MoveButton",
             "propertyName": "src",
             "propertyValue": "expandbutton2.png",
             "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
@@ -56,7 +56,7 @@
             "forkedPlatform": "all",
             "parentId": "__ce8456a84c7246f8ad86c9d0ebf42953",
             "callbackType": null,
-            "widgetPath": "this.view.HamburguerFunctionMenu.Image0e5a3421ad0f342"
+            "widgetPath": "this.view.HamburguerFunctionMenu.MoveButton"
         }, {
             "id": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
             "type": "MOVE_ACTION",
@@ -128,7 +128,7 @@
             "type": "SET_WIDGET_PROPERTY",
             "itemType": "FORM",
             "itemId": "Calculator1screen",
-            "widgetId": "Image0e5a3421ad0f342",
+            "widgetId": "MoveButton",
             "propertyName": "src",
             "propertyValue": "expandbuttono1.png",
             "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
@@ -138,7 +138,7 @@
             "forkedPlatform": "all",
             "parentId": "__d8dae90b37c943fd9031f027e089ac7c",
             "callbackType": null,
-            "widgetPath": "this.view.HamburguerFunctionMenu.Image0e5a3421ad0f342"
+            "widgetPath": "this.view.HamburguerFunctionMenu.MoveButton"
         }, {
             "id": "____j6c08b4aee6249568e98116da109b8cb",
             "type": "MOVE_ACTION",

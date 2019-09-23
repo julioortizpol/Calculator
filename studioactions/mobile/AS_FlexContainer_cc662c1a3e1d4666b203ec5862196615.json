@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_cc662c1a3e1d4666b203ec5862196615": {
+        "id": "AS_FlexContainer_cc662c1a3e1d4666b203ec5862196615",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Calculator1screen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0603757e27a4ae0837aadc2a35272bc"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

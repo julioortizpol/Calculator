@@ -36,7 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Image0e5a3421ad0f342"
+        "MoveButton"
     ],
     "clipbounds": true,
     "containerweight": 100,

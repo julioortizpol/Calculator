@@ -7,7 +7,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "70.04%"
+        "value": "65.04%"
     },
     "_left_": {
         "type": "string",
@@ -42,7 +42,6 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "HamburgerCalcoption",
-    "ide_onClick": "AS_FlexContainer_h24f32dc85bb4f459670dd6c7f83f6f5",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

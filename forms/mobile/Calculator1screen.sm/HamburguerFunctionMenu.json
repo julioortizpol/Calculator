@@ -185,7 +185,7 @@
                 "wType": "FlexContainer"
             }
         },
-        "Image0e5a3421ad0f342": {
+        "MoveButton": {
             "__events__": {},
             "__info__": {
                 "kuid": "e19dda99bcfc40ffb80280d54f0e7aa3",
@@ -226,7 +226,9 @@
             }
         },
         "flximgcontainer": {
-            "__events__": {},
+            "__events__": {
+                "ide_onClick": "AS_FlexContainer_d529c2fc174f43b2842da6845b456066"
+            },
             "__info__": {
                 "kuid": "d46568f79d2e4da388240ed86b6e3620",
                 "srcKUID": "ddea6556eddf4ad2bbbbf76d6fe02d1c",
