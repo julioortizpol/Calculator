@@ -37,8 +37,8 @@
     "canUpdateUI": true,
     "children": [
         "Number0",
-        "Dotaction",
-        "Equalaction"
+        "dot",
+        "eqeual"
     ],
     "clipbounds": true,
     "containerweight": 100,

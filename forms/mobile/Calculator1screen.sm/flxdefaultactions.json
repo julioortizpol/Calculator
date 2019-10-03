@@ -30,17 +30,17 @@
     "_skin_": "sefe3261104044288e76c3a47d4261bc",
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "25.40%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
         "Backspaceiconflx",
-        "Divide",
+        "divide",
         "multiply",
-        "Subtract",
-        "Sum"
+        "rest",
+        "plus"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -52,7 +52,7 @@
     "kuid": "b5295e4f4bbc40559ee86ab77a039fb9",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0f5200f75c9e04f",
+    "parent": "flxmain",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

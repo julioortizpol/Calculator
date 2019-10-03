@@ -33,7 +33,7 @@
                 "delay": "0",
                 "iterationCount": 1,
                 "fillMode": "kony.anim.FILL_MODE_FORWARDS",
-                "duration": "500"
+                "duration": "150"
             },
             "start": "Immediately",
             "parentAnimation": "MOVE_ACTION____f1688e37a36a41d29988a103d4ed02a4",
@@ -62,7 +62,6 @@
             "type": "MOVE_ACTION",
             "itemType": "FORM",
             "itemId": "Calculator1screen",
-            "widgetId": "flxshadowpart",
             "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
             "widgetKUID": "f44b738bc22541eebcb99e4c1ebc79e7",
             "wType": "FlexContainer",
@@ -77,15 +76,14 @@
                 "delay": "0",
                 "iterationCount": 1,
                 "fillMode": "kony.anim.FILL_MODE_FORWARDS",
-                "duration": "500"
+                "duration": "50"
             },
             "start": "Immediately",
             "parentAnimation": "MOVE_ACTION____b68cb70bac3e413e972fad35303597c4",
             "animationId": "____cbbcec9f4dd646558864f85f92b37868",
             "displayAnimationId": "MOVE_ACTION____dea1c2963c254a46aac7e5f35fa2462d",
             "forkedPlatform": "all",
-            "parentId": null,
-            "widgetPath": "this.view.flxshadowpart"
+            "parentId": null
         }]
     }
 }

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "35%"
+        "value": "30%"
     },
     "_left_": {
         "type": "string",
@@ -23,38 +23,49 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s2dc43bee4154642a968c71e5dea0692",
+    "_skin_": "sb15242d9015441aa76c03f8f24f123a",
     "_top_": {
         "type": "string",
-        "value": "0%"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "activeNativeBorderCornerRadiusControl": "topRightControl",
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "resulttext"
+    ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
+    "horizontalscrollindicator": true,
     "id": "DisplayTable",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "b188341779c542aba043fad8f4a15fc5",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0f5200f75c9e04f",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "flxmain",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 1,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
+    "track": false,
+    "verticalscrollindicator": true,
+    "vizProps": {},
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1,
     "zindex": 2
 }

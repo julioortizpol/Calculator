@@ -92,7 +92,6 @@
             "type": "MOVE_ACTION",
             "itemType": "FORM",
             "itemId": "Calculator1screen",
-            "widgetId": "flxshadowpart",
             "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
             "widgetKUID": "f44b738bc22541eebcb99e4c1ebc79e7",
             "wType": "FlexContainer",
@@ -115,8 +114,7 @@
             "displayAnimationId": "MOVE_ACTION____gd7951c7ac334dc3a94f034871fa31a1",
             "forkedPlatform": "all",
             "parentId": "__ce8456a84c7246f8ad86c9d0ebf42953",
-            "callbackType": null,
-            "widgetPath": "this.view.flxshadowpart"
+            "callbackType": null
         }, {
             "id": "ADD_SNIPPET__c66c21949afc45edaa0cce0fd0d0745b",
             "type": "ADD_SNIPPET",
@@ -173,7 +171,6 @@
             "type": "MOVE_ACTION",
             "itemType": "FORM",
             "itemId": "Calculator1screen",
-            "widgetId": "flxshadowpart",
             "itemKUID": "a0603757e27a4ae0837aadc2a35272bc",
             "widgetKUID": "f44b738bc22541eebcb99e4c1ebc79e7",
             "wType": "FlexContainer",
@@ -195,8 +192,7 @@
             "animationId": "____db9ec34e7ef945fa83ca90fc55c314f8",
             "displayAnimationId": "MOVE_ACTION____dea1c2963c254a46aac7e5f35fa2462d",
             "forkedPlatform": "all",
-            "parentId": "__d8dae90b37c943fd9031f027e089ac7c",
-            "widgetPath": "this.view.flxshadowpart"
+            "parentId": "__d8dae90b37c943fd9031f027e089ac7c"
         }]
     }
 }

@@ -51,7 +51,7 @@
     "kuid": "f879875b662e46e0982f0ac46136d3d0",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "FlexContainer0f5200f75c9e04f",
+    "parent": "flxmain",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

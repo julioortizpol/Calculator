@@ -7,10 +7,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_margin_": [
         0,
         0,
@@ -25,13 +21,9 @@
     ],
     "_skin_": "s32b7b4408984045b8a77d89b813ad42",
     "_src_": "backspace01.png",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "30%"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -50,7 +42,7 @@
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "Image0f45ec419fc1347",
+    "id": "deleteButton",
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",

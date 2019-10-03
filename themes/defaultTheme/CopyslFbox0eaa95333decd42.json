@@ -23,7 +23,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "default",
     "isForked": true
   },
@@ -51,7 +51,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "default",
     "isForked": true
   },
@@ -105,7 +105,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "System",
     "isForked": true
   },
@@ -133,7 +133,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "System",
     "isForked": true
   },
@@ -162,7 +162,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "None",
     "isForked": true
   },
@@ -331,7 +331,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "default",
     "isForked": true
   },
@@ -363,7 +363,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "None",
     "isForked": true
   },
@@ -391,7 +391,7 @@
     },
     "border_style": "plain",
     "border_type": 1,
-    "border_width": 1,
+    "border_width": 0,
     "font_name": "None",
     "isForked": true
   }

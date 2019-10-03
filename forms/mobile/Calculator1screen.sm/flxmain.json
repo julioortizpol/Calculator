@@ -40,12 +40,12 @@
         "flxdefaultactions",
         "DisplayTable",
         "HamburgerCalcoption",
-        "flxshadowpart"
+        "flxheader"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0f5200f75c9e04f",
+    "id": "flxmain",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

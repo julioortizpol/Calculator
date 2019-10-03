@@ -1,5 +1,4 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
@@ -11,19 +10,20 @@
         "value": "0dp"
     },
     "_margin_": [
-        6,
-        6,
-        6,
-        6
+        0,
+        0,
+        0,
+        0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "sefbfbbecc964fa58c11963729da6b09",
-    "_text_": "X",
+    "_percent_": true,
+    "_skin_": "sc8209a2216f45788deb4fcc2cc290c1",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -32,21 +32,30 @@
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "lbmultiply"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "displaytext": true,
-    "focusskin": "sbbc1ca33bf04c5d9dc513f7774044e1",
+    "enablescrolling": true,
     "id": "multiply",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "da2cd4ce3dbd4e7a8c713151b0e82650",
-    "name": "kony.ui.Button",
+    "kuid": "cc29d414720e4a90a88226c36b40f393",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
     "parent": "flxdefaultactions",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }
