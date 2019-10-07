@@ -3,8 +3,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -18,8 +18,8 @@
         0,
         0
     ],
-    "_skin_": "s47dde8760724156935f5d88924599e2",
-    "_text_": ".",
+    "_skin_": "s5e498b775e842a488c3aa6db9125521",
+    "_text_": "DEG",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -41,8 +41,8 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 2,
-    "id": "lbdot",
+    "contentalignment": 4,
+    "id": "lbclacanglemode",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +56,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fb4d9f9ecfe64910a25d20e0a1b2c7e5",
+    "kuid": "d65483a651be411995643bcab66b34d8",
     "name": "kony.ui.Label",
-    "parent": "dot",
+    "parent": "flxcalcanglemode",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "7%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -23,33 +23,33 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sfda703bb71145f18f929acfb0a1bc18",
+    "_skin_": "s95aef0416034e98a19f1784da0e57b3",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "33.33%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxcalcanglemode",
-        "menubutton"
+        "dot",
+        "coma"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxheader",
+    "id": "dotandcoma",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bda1dcbd40fd42228e8bdb6a64705970",
-    "layouttype": 2,
+    "kuid": "bd18dcf35728420a8b7f38a18b46a47f",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxmain",
+    "parent": "FourthRowNumbers",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -58,5 +58,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 2
+    "zindex": 1
 }

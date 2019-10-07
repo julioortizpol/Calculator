@@ -18,8 +18,12 @@
         0,
         0
     ],
-    "_skin_": "s47dde8760724156935f5d88924599e2",
-    "_text_": ".",
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s336be4f09b6450b9c97c864cecd4fc9",
+    "_text_": "0",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -32,17 +36,13 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "centery": {
         "type": "string",
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 2,
-    "id": "lbdot",
+    "contentalignment": 6,
+    "id": "displayoperationtext",
     "info": null,
     "ipad": {
         "psp": {
@@ -52,13 +52,16 @@
     "iphone": {
         "psp": {
             "wrapping": 2
+        },
+        "textStyle": {
+            "strikeThrough": false
         }
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fb4d9f9ecfe64910a25d20e0a1b2c7e5",
+    "kuid": "e61dbbcab30248bb90d129ace8052fec",
     "name": "kony.ui.Label",
-    "parent": "dot",
+    "parent": "flxoperation",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

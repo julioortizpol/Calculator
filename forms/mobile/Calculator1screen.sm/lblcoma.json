@@ -19,7 +19,7 @@
         0
     ],
     "_skin_": "s47dde8760724156935f5d88924599e2",
-    "_text_": ".",
+    "_text_": ",",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -42,7 +42,7 @@
     },
     "containerweight": 100,
     "contentalignment": 2,
-    "id": "lbdot",
+    "id": "lblcoma",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,9 +56,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fb4d9f9ecfe64910a25d20e0a1b2c7e5",
+    "kuid": "c7872f4547a7414489ff2e664aca740f",
     "name": "kony.ui.Label",
-    "parent": "dot",
+    "parent": "coma",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

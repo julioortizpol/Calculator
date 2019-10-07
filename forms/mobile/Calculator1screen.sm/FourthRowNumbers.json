@@ -37,7 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "Number0",
-        "dot",
+        "dotandcoma",
         "eqeual"
     ],
     "clipbounds": true,
