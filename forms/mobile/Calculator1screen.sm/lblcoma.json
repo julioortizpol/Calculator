@@ -3,8 +3,8 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -41,7 +41,7 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 2,
+    "contentalignment": 4,
     "id": "lblcoma",
     "info": null,
     "ipad": {
@@ -56,7 +56,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c7872f4547a7414489ff2e664aca740f",
+    "kuid": "e721d93fb7354c67af47f5b7b249a363",
     "name": "kony.ui.Label",
     "parent": "coma",
     "pf": "Calculator1screen",

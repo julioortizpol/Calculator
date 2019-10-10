@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "33.33%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -45,10 +45,10 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f274a431707d4cd79c60987e2c3b8ad6",
-    "layouttype": 2,
+    "kuid": "bd18dcf35728420a8b7f38a18b46a47f",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "dotandcoma",
+    "parent": "FourthRowNumbers",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

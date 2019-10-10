@@ -1,0 +1,30 @@
+{
+    "AS_Form_e57ef133a70846c6bf5c76b227ab638c": {
+        "id": "AS_Form_e57ef133a70846c6bf5c76b227ab638c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Calculator1screen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a0603757e27a4ae0837aadc2a35272bc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g83a0b072a614791b61a5e4b8f3c00d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(this.eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

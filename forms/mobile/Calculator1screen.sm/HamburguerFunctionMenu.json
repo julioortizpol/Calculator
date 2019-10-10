@@ -226,6 +226,12 @@
                 "kuid": "ad58e3dc8a28451badcf948de666042e",
                 "srcKUID": "c041e83d0ffe4bd69b92a9336b6ffbcc",
                 "wType": "FlexContainer"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "88%"
+                }
             }
         },
         "flximgcontainer": {
@@ -236,6 +242,12 @@
                 "kuid": "d46568f79d2e4da388240ed86b6e3620",
                 "srcKUID": "ddea6556eddf4ad2bbbbf76d6fe02d1c",
                 "wType": "FlexContainer"
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "12%"
+                }
             }
         },
         "flxrowfunction1": {

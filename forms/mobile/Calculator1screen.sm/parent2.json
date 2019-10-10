@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "20%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -30,27 +30,25 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "33.33%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Number4",
-        "Number5",
-        "Number6"
+        "lbparent2"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "SecondRowNumbers",
+    "id": "parent2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e866184da78f4719a9d2bb30ae5add21",
-    "layouttype": 3,
+    "kuid": "c90b48c193ff49e9b83813e9bb57d316",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxNumbersaction",
+    "parent": "fivethRowNumbers",
     "pf": "Calculator1screen",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

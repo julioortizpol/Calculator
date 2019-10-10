@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "25%"
+        "value": "20%"
     },
     "_left_": {
         "type": "string",
@@ -37,7 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "Number0",
-        "dotandcoma",
+        "dot",
         "eqeual"
     ],
     "clipbounds": true,

@@ -2,6 +2,10 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_blur_": {
+        "enabled": false,
+        "value": 0
+    },
     "_height_": {
         "type": "string",
         "value": "100%"
@@ -20,10 +24,10 @@
     ],
     "_right_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_skin_": "s336be4f09b6450b9c97c864cecd4fc9",
-    "_text_": "0",
+    "_text_": "",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -68,5 +72,5 @@
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
-    "zindex": 1
+    "zindex": 5
 }

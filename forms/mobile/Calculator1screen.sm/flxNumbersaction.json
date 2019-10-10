@@ -30,7 +30,7 @@
     "_skin_": "s8117af4883e4c2ba739f87471b61d56",
     "_width_": {
         "type": "string",
-        "value": "65%"
+        "value": "66.55%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -39,7 +39,8 @@
         "firstrowNumbers",
         "SecondRowNumbers",
         "ThridRowNumbers",
-        "FourthRowNumbers"
+        "FourthRowNumbers",
+        "fivethRowNumbers"
     ],
     "clipbounds": true,
     "containerweight": 100,

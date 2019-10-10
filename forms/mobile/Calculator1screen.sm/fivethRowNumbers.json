@@ -36,18 +36,18 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Number4",
-        "Number5",
-        "Number6"
+        "coma",
+        "parent1",
+        "parent2"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "SecondRowNumbers",
+    "id": "fivethRowNumbers",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e866184da78f4719a9d2bb30ae5add21",
+    "kuid": "e0eb96bf37c24638a75add7e24b8c63d",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "flxNumbersaction",

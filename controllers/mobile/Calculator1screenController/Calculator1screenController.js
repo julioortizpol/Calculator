@@ -3,10 +3,50 @@ define({
   /** onClick defined for HamburgerCalcoption **/
   onNavigate: function(context, isBackNavigation) {
     this.setRiple();
-    this.view.DisplayTable.shadowDepth = 5;
-    this.view.flxheader.shadowDepth = 5;
-    this.view.HamburgerCalcoption.HamburguerFunctionMenu.flximgcontainer.onTouchEnd = this.OpenfunctionMenu;
+    this.setshadowdepth();
+    this.setgestures();
+    this.setNumbersAction();
 
+    //this.view.flxmain.onTouchEnd = (source)=>{alert(source);};
+  },
+  writeNumbers: function(textparam){
+    if(this.view.displayoperationtext.text === null){
+      this.view.displayoperationtext.text = textparam;
+    }else{
+      this.view.displayoperationtext.text = (this.view.displayoperationtext.text).concat(textparam);
+    }
+    if(this.view.displayoperationtext.skin === "resultskin"){
+      this.view.flxoperation.onScrolling = ()=>{
+        this.view.displayoperationtext.skin = "resizeoutputtext1";
+      };
+    }else if(this.view.displayoperationtext.skin === "resizeoutputtext1"){
+       this.view.flxoperation.onScrolling = ()=>{
+        this.view.displayoperationtext.skin = "resizeoutputtext2";
+      };
+    }else{
+      this.view.flxoperation.onScrolling = ()=>{};
+    }
+    this.view.flxoperation.scrollToEnd();
+  },
+  setNumbersAction: function(){
+    this.view.Number1.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber1.text);};
+    this.view.Number2.onTouchEnd = ()=>{this.writeNumbers(this.view.LBNumber2.text);};
+    this.view.Number3.onTouchEnd = ()=>{this.writeNumbers(this.view.Lbnumber3.text);};
+    this.view.Number4.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber4.text);};
+    this.view.Number5.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber5.text);};
+    this.view.Number6.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber6.text);};
+    this.view.Number7.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber7.text);};
+    this.view.Number8.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber8.text);};
+    this.view.Number9.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber9.text);};
+    this.view.Number0.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber0.text);};
+    this.view.dot.onTouchEnd = ()=>{this.writeNumbers(this.view.lbdot.text);};
+    this.view.coma.onTouchEnd = ()=>{this.writeNumbers(this.view.lblcoma.text);};
+    this.view.parent1.onTouchEnd = ()=>{this.writeNumbers(this.view.lbparent1.text);};
+    this.view.parent2.onTouchEnd = ()=>{this.writeNumbers(this.view.lbparent2.text);};
+   // this.view.Number1.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber1.text);};
+  },
+  setgestures: function(){
+    this.view.HamburgerCalcoption.HamburguerFunctionMenu.flximgcontainer.onTouchEnd = this.OpenfunctionMenu;
     this.view.HamburgerCalcoption.addGestureRecognizer(2,{fingers:1, swipedistance: 50, swipevelocity: 80},(widget, gestureinfo)=>{
       if(gestureinfo.swipeDirection == 1){
         this.OpenfunctionMenu();
@@ -17,16 +57,18 @@ define({
     this.view.HamburgerCalcoption.HamburguerFunctionMenu.flximgcontainer.onTouchStart = ()=>{
       self.view.flxmain.onTouchMove = (widget, x, y)=>{
         if((((x/kony.os.deviceInfo().screenWidth)*100) >= 23.33 && 
-            ((x/kony.os.deviceInfo().screenWidth)*100) <= 90.5)){
+            ((x/kony.os.deviceInfo().screenWidth)*100) <= 92)){
           thecontainer.left = `${(x/kony.os.deviceInfo().screenWidth)*100}%`;
           self.view.resulttext.text = `${(x/kony.os.deviceInfo().screenWidth)*100}%`;
+          self.view.flxNumbersaction.opacity = (x/kony.os.deviceInfo().screenWidth - 0.003);
+          self.view.flxdefaultactions.opacity = (x/kony.os.deviceInfo().screenWidth -0.003);
         }
       };
     };
   },
   setRiple: function(){
     //Action Button Riple
-    this.view.plus.rippleBackground  =  {
+    var ripledafultproperties = {
       rippleColor: "e2e2e2",
       contentLayers: [{
         background: "f5f5f5",
@@ -38,224 +80,43 @@ define({
         mask: true
       }]
     };
-    this.view.rest.rippleBackground  =  {
+    var riplePopertiesHeader = {
       rippleColor: "e2e2e2",
       contentLayers: [{
-        background: "f5f5f5",
+        background: "ffffff",
         backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
         mask: false
       }, {
-        background: "f5f5f5",
+        background: "ffffff",
         backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
         mask: true
       }]
     };
-    this.view.multiply.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.divide.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Backspaceiconflx.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
+    //ActionRIPLEproperties
+    this.view.plus.rippleBackground  =  ripledafultproperties;
+    this.view.rest.rippleBackground  =  ripledafultproperties;
+    this.view.multiply.rippleBackground  =  ripledafultproperties;
+    this.view.divide.rippleBackground  =  ripledafultproperties;
+    this.view.Backspaceiconflx.rippleBackground  =  ripledafultproperties;
     //header button riple
-    this.view.flxcalcanglemode.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "ffffff",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "ffffff",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
+    this.view.flxcalcanglemode.rippleBackground  =  riplePopertiesHeader;
+    this.view.menubutton.rippleBackground  =  riplePopertiesHeader;
     //keyboard button riple
-    this.view.Number1.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number2.rippleBackground  = {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number3.rippleBackground  = {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number4.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number5.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number6.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number7.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number8.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number9.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.Number0.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.dot.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.coma.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
-    this.view.eqeual.rippleBackground  =  {
-      rippleColor: "e2e2e2",
-      contentLayers: [{
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: false
-      }, {
-        background: "f5f5f5",
-        backgroundType: constants.RIPPLE_CONTENT_LAYER_COLOR,
-        mask: true
-      }]
-    };
+    this.view.Number1.rippleBackground  =  ripledafultproperties;
+    this.view.Number2.rippleBackground  = ripledafultproperties;
+    this.view.Number3.rippleBackground  = ripledafultproperties;
+    this.view.Number4.rippleBackground  =  ripledafultproperties;
+    this.view.Number5.rippleBackground  =  ripledafultproperties;
+    this.view.Number6.rippleBackground  =  ripledafultproperties;
+    this.view.Number7.rippleBackground  =  ripledafultproperties;
+    this.view.Number8.rippleBackground  =  ripledafultproperties;
+    this.view.Number9.rippleBackground  =  ripledafultproperties;
+    this.view.Number0.rippleBackground  =  ripledafultproperties;
+    this.view.dot.rippleBackground  =  ripledafultproperties;
+    this.view.coma.rippleBackground  =  ripledafultproperties;
+    this.view.eqeual.rippleBackground  =  ripledafultproperties;
+    this.view.parent1.rippleBackground  =  ripledafultproperties;
+    this.view.parent2.rippleBackground  =  ripledafultproperties;
   },
   OpenfunctionMenu: function(){
     this.view.flxmain.onTouchMove = (widget, x, y)=>{};
@@ -277,20 +138,25 @@ define({
         }, {
           "animationEnd": ()=>{}
         });
+      self.view.flxdefaultactions.animate(
+        kony.ui.createAnimation({
+          "100": {
+            "opacity": "0.4",
+            "stepConfig": {
+              "timingFunction": kony.anim.EASE
+            }
+          }
+        }), {
+          "delay": 0,
+          "iterationCount": 1,
+          "fillMode": kony.anim.FILL_MODE_FORWARDS,
+          "duration": 0.20
+        }, {
+          "animationEnd": ()=>{
+          }
+        });
       self.view.flxNumbersaction.animate(
         kony.ui.createAnimation({
-          "25": {
-            "opacity": "0.80",
-            "stepConfig": {
-              "timingFunction": kony.anim.EASE
-            }
-          },
-          "50": {
-            "opacity": "0.60",
-            "stepConfig": {
-              "timingFunction": kony.anim.EASE
-            }
-          },
           "100": {
             "opacity": "0.4",
             "stepConfig": {
@@ -304,7 +170,7 @@ define({
           "duration": 0.20
         }, {
           "animationEnd": ()=>{self.view.HamburguerFunctionMenu.MoveButton.src = "expandbutton2.png";
-                              this.view.HamburgerCalcoption.shadowDepth = 4;
+                               this.view.HamburgerCalcoption.shadowDepth = 4;
                               }
         });
     }else{
@@ -314,37 +180,59 @@ define({
   closeMenu: function(){
     var self = this;
     self.view.HamburgerCalcoption.animate(
-    kony.ui.createAnimation({
+      kony.ui.createAnimation({
         "100": {
-            "left": "90.5%",
-            "stepConfig": {
-                "timingFunction": kony.anim.EASE
-            }
+          "left": "92%",
+          "stepConfig": {
+            "timingFunction": kony.anim.EASE
+          }
         }
-    }), {
+      }), {
         "delay": 0,
         "iterationCount": 1,
         "fillMode": kony.anim.FILL_MODE_FORWARDS,
         "duration": 0.20
-    }, {
-        "animationEnd": ()=>{this.view.HamburgerCalcoption.shadowDepth = 0;}
-    });
+      }, {
+        "animationEnd": ()=>{this.view.HamburgerCalcoption.shadowDepth = 0;
+                             this.view.flxdefaultactions.opacity = 1;}
+      });
     self.view.HamburguerFunctionMenu.MoveButton.src = "expandbuttono1.png";
-    self.view.flxNumbersaction.animate(
-    kony.ui.createAnimation({
+    self.view.flxdefaultactions.animate(
+      kony.ui.createAnimation({
         "100": {
-            "opacity": "1",
-            "stepConfig": {
-                "timingFunction": kony.anim.EASE
-            }
+          "opacity": "1",
+          "stepConfig": {
+            "timingFunction": kony.anim.EASE
+          }
         }
-    }), {
+      }), {
         "delay": 0,
         "iterationCount": 1,
         "fillMode": kony.anim.FILL_MODE_FORWARDS,
         "duration": 0.20
-    }, {
+      }, {
         "animationEnd": ()=>{}
-    });
-  }
+      });
+    self.view.flxNumbersaction.animate(
+      kony.ui.createAnimation({
+        "100": {
+          "opacity": "1",
+          "stepConfig": {
+            "timingFunction": kony.anim.EASE
+          }
+        }
+      }), {
+        "delay": 0,
+        "iterationCount": 1,
+        "fillMode": kony.anim.FILL_MODE_FORWARDS,
+        "duration": 0.20
+      }, {
+        "animationEnd": ()=>{}
+      });
+  },
+  setshadowdepth: function(){
+    this.view.DisplayTable.shadowDepth = 5;
+    this.view.flxheader.shadowDepth = 5;
+  },
+
 });
