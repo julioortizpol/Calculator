@@ -6,15 +6,43 @@ define({
     this.setshadowdepth();
     this.setgestures();
     this.setNumbersAction();
-
+	
     //this.view.flxmain.onTouchEnd = (source)=>{alert(source);};
   },
-  writeNumbers: function(textparam){
-    if(this.view.displayoperationtext.text === null){
-      this.view.displayoperationtext.text = textparam;
-    }else{
-      this.view.displayoperationtext.text = (this.view.displayoperationtext.text).concat(textparam);
+  DisplayngOperation: function(textparam){
+    //DotLogic
+    //Parentesis Logic
+    //Coma logic
+    //passtextLogic
+	const displaytext = this.view.displayoperationtext;
+    switch(isNaN(textparam)){
+      case true:
+        if(displaytext.text === null){
+          if((textparam.match(/[.(-]/g) !== null)){
+           displaytext.text = textparam; 
+          }
+        }else{
+          const dotlogic = (!(displaytext.text.includes(".")) || !(textparam.includes(".")));
+          const comalogic = !(textparam.includes(","));
+          const endparenthesis = !(((displaytext.text[displaytext.text.length - 1]).includes("(") && textparam.includes(")")));
+          const startparenthesis = !((displaytext.text[displaytext.text.length - 1]).includes(".") && textparam.includes("("));
+          
+          if(dotlogic && comalogic && endparenthesis && startparenthesis){
+            displaytext.text = (displaytext.text).concat(textparam);
+          }
+        }
+        break;
+      default:
+        if(displaytext.text === null){
+          displaytext.text = textparam;
+        }else {
+          displaytext.text = (displaytext.text).concat(textparam);
+        }
+        break;
     }
+    this.Resizedisplaytext();
+  },
+  Resizedisplaytext: function(){
     if(this.view.displayoperationtext.skin === "resultskin"){
       this.view.flxoperation.onScrolling = ()=>{
         this.view.displayoperationtext.skin = "resizeoutputtext1";
@@ -29,21 +57,21 @@ define({
     this.view.flxoperation.scrollToEnd();
   },
   setNumbersAction: function(){
-    this.view.Number1.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber1.text);};
-    this.view.Number2.onTouchEnd = ()=>{this.writeNumbers(this.view.LBNumber2.text);};
-    this.view.Number3.onTouchEnd = ()=>{this.writeNumbers(this.view.Lbnumber3.text);};
-    this.view.Number4.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber4.text);};
-    this.view.Number5.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber5.text);};
-    this.view.Number6.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber6.text);};
-    this.view.Number7.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber7.text);};
-    this.view.Number8.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber8.text);};
-    this.view.Number9.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber9.text);};
-    this.view.Number0.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber0.text);};
-    this.view.dot.onTouchEnd = ()=>{this.writeNumbers(this.view.lbdot.text);};
-    this.view.coma.onTouchEnd = ()=>{this.writeNumbers(this.view.lblcoma.text);};
-    this.view.parent1.onTouchEnd = ()=>{this.writeNumbers(this.view.lbparent1.text);};
-    this.view.parent2.onTouchEnd = ()=>{this.writeNumbers(this.view.lbparent2.text);};
-   // this.view.Number1.onTouchEnd = ()=>{this.writeNumbers(this.view.lbNumber1.text);};
+    this.view.Number1.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber1.text);};
+    this.view.Number2.onTouchEnd = ()=>{this.DisplayngOperation(this.view.LBNumber2.text);};
+    this.view.Number3.onTouchEnd = ()=>{this.DisplayngOperation(this.view.Lbnumber3.text);};
+    this.view.Number4.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber4.text);};
+    this.view.Number5.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber5.text);};
+    this.view.Number6.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber6.text);};
+    this.view.Number7.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber7.text);};
+    this.view.Number8.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber8.text);};
+    this.view.Number9.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber9.text);};
+    this.view.Number0.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber0.text);};
+    this.view.dot.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbdot.text);};
+    this.view.coma.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lblcoma.text);};
+    this.view.parent1.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbparent1.text);};
+    this.view.parent2.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbparent2.text);};
+   // this.view.Number1.onTouchEnd = ()=>{this.DisplayngOperation(this.view.lbNumber1.text);};
   },
   setgestures: function(){
     this.view.HamburgerCalcoption.HamburguerFunctionMenu.flximgcontainer.onTouchEnd = this.OpenfunctionMenu;
